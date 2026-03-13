@@ -11,6 +11,7 @@ public class UserController {
 	
 	@GetMapping("/status/check")
 	public String getUsers() {
+		System.out.println("get users was called");
 		return "get users was called";
 	}
 	
